@@ -1,0 +1,30 @@
+title: "Mwikuyu Christian C"
+description: "Personal website and blog"
+url: "https://MwikuyuC.github.io"
+baseurl: ""
+
+# Author information
+author:
+  name: "Mwikuyu Christian C"
+  email: "christiandumalukhie@gmail.com"
+  github: "MwikuyuC"
+
+# Social links
+github_username: MwikuyuC
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+header_pages:
+  - about.md
+  - education.md
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
