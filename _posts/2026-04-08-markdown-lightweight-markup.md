@@ -48,7 +48,7 @@ categories: [technology, markdown, documentation]
 |------|---------|
 | **Pandoc** | Convert to PDF, DOCX, HTML |
 | **Jekyll** | Static site generation |
-| **VS Code** | Markdown editor |
+| **Fedora Terminal** | Markdown editor |
 | **GitHub** | Native Markdown rendering |
 
 ## Conclusion
