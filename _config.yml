@@ -22,6 +22,8 @@ plugins:
 header_pages:
   - about.md
   - education.md
+  - resources.md
+  - projects.md
 
 # Exclude from processing
 exclude:
