@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Personal Projects"
-permalink: /projects/
+permalink: /ru/projects/
 ---
 
 ## My Projects

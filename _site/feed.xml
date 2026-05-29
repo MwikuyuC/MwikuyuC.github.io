@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2026-05-16T13:56:03+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mwikuyu Christian C</title><subtitle>Personal website and blog</subtitle><author><name>Mwikuyu Christian C</name><email>christiandumalukhie@gmail.com</email></author><entry><title type="html">Scientific Programming Languages: A Student’s Guide</title><link href="http://localhost:4000/technology/programming/science/2026/04/15/scientific-programming-languages.html" rel="alternate" type="text/html" title="Scientific Programming Languages: A Student’s Guide" /><published>2026-04-15T00:00:00+03:00</published><updated>2026-04-15T00:00:00+03:00</updated><id>http://localhost:4000/technology/programming/science/2026/04/15/scientific-programming-languages</id><content type="html" xml:base="http://localhost:4000/technology/programming/science/2026/04/15/scientific-programming-languages.html"><![CDATA[<h2 id="what-are-scientific-programming-languages">What Are Scientific Programming Languages?</h2>
+
+<p>Scientific programming languages are designed for <strong>numerical computation</strong>, <strong>data analysis</strong>, <strong>simulation</strong>, and <strong>research</strong> applications. Unlike general-purpose languages, they excel at matrix operations, statistical analysis, and visualization.</p>
+
+<h2 id="most-popular-scientific-languages">Most Popular Scientific Languages</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Language</th>
+      <th>Best For</th>
+      <th>Learning Curve</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Python</strong></td>
+      <td>Data science, ML, general science</td>
+      <td>Easy</td>
+    </tr>
+    <tr>
+      <td><strong>R</strong></td>
+      <td>Statistics, data visualization</td>
+      <td>Moderate</td>
+    </tr>
+    <tr>
+      <td><strong>MATLAB</strong></td>
+      <td>Engineering, simulations</td>
+      <td>Moderate</td>
+    </tr>
+    <tr>
+      <td><strong>Julia</strong></td>
+      <td>High-performance computing</td>
+      <td>Moderate</td>
+    </tr>
+    <tr>
+      <td><strong>Fortran</strong></td>
+      <td>Legacy scientific code</td>
+      <td>Hard</td>
+    </tr>
+    <tr>
+      <td><strong>C/C++</strong></td>
+      <td>Performance-critical code</td>
+      <td>Hard</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="python-for-science">Python for Science</h2>
+
+<h3 id="key-libraries">Key Libraries</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Library</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>NumPy</strong></td>
+      <td>Numerical arrays and operations</td>
+    </tr>
+    <tr>
+      <td><strong>SciPy</strong></td>
+      <td>Scientific computing (optimization, integration)</td>
+    </tr>
+    <tr>
+      <td><strong>Matplotlib</strong></td>
+      <td>Plotting and visualization</td>
+    </tr>
+    <tr>
+      <td><strong>Pandas</strong></td>
+      <td>Data manipulation and analysis</td>
+    </tr>
+    <tr>
+      <td><strong>Scikit-learn</strong></td>
+      <td>Machine learning</td>
+    </tr>
+    <tr>
+      <td><strong>TensorFlow/PyTorch</strong></td>
+      <td>Deep learning</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="example-basic-scientific-computing-in-python">Example: Basic Scientific Computing in Python</h3>
+
+<p>```python
+import numpy as np
+import matplotlib.pyplot as plt</p>
+
+<h1 id="generate-data">Generate data</h1>
+<p>x = np.linspace(0, 10, 100)
+y = np.sin(x)</p>
+
+<h1 id="plot">Plot</h1>
+<p>plt.plot(x, y)
+plt.xlabel(‘x’)
+plt.ylabel(‘sin(x)’)
+plt.title(‘Sine Wave’)
+plt.show()</p>
+
+<p>R for Statistics
+R is specialized for statistical analysis and visualization:</p>
+
+<p>r</p>
+<h1 id="load-data">Load data</h1>
+<p>data &lt;- read.csv(“results.csv”)</p>
+
+<h1 id="summary-statistics">Summary statistics</h1>
+<p>summary(data)</p>
+
+<h1 id="linear-regression">Linear regression</h1>
+<p>model &lt;- lm(y ~ x, data=data)
+summary(model)</p>
+
+<h1 id="plot-1">Plot</h1>
+<p>library(ggplot2)
+ggplot(data, aes(x=x, y=y)) + geom_point() + geom_smooth(method=”lm”)
+MATLAB for Engineering
+MATLAB is widely used in engineering:</p>
+
+<p>matlab
+% Matrix operations
+A = [1 2; 3 4];
+B = [5 6; 7 8];
+C = A * B;</p>
+
+<p>% Plotting
+x = 0:0.1:10;
+y = sin(x);
+plot(x, y);
+xlabel(‘x’);
+ylabel(‘sin(x)’);
+Julia for High Performance
+Julia combines ease of use with C-like speed:</p>
+
+<p>julia</p>
+<h1 id="julia-code">Julia code</h1>
+<p>function f(x)
+    return x^2 + 2x + 1
+end</p>
+
+<h1 id="fast-loops">Fast loops</h1>
+<p>for i in 1:1000000
+    f(i)
+end
+Which Language Should You Learn?
+If you want to…	Choose
+Do data science / AI	Python
+Work in statistics	R
+Study engineering	MATLAB
+Do high-performance computing	Julia
+Work in legacy scientific code	Fortran
+My Learning Path
+Started with Python – Most versatile and beginner-friendly</p>
+
+<p>Learning NumPy and Pandas – Essential for data work</p>
+
+<p>Will learn R – For advanced statistics</p>
+
+<p>Exploring Julia – For performance-critical applications</p>
+
+<p>Resources for Learning
+Resource	Link	Cost
+Python for Data Science	freeCodeCamp	Free
+R for Data Science	r4ds.had.co.nz	Free
+MATLAB Onramp	mathworks.com	Free
+Julia Academy	juliaacademy.com	Free
+Conclusion
+Scientific programming is an essential skill for modern researchers. Python is the best place to start due to its versatility and huge ecosystem. As you specialize, you may add R, MATLAB, or Julia to your toolkit.</p>
+
+<p>Start coding today – your research will thank you!</p>]]></content><author><name>Mwikuyu Christian C</name><email>christiandumalukhie@gmail.com</email></author><category term="technology" /><category term="programming" /><category term="science" /><summary type="html"><![CDATA[What Are Scientific Programming Languages?]]></summary></entry><entry><title type="html">Week in Review: April 8-15, 2026</title><link href="http://localhost:4000/personal/weekly/2026/04/15/week-in-review.html" rel="alternate" type="text/html" title="Week in Review: April 8-15, 2026" /><published>2026-04-15T00:00:00+03:00</published><updated>2026-04-15T00:00:00+03:00</updated><id>http://localhost:4000/personal/weekly/2026/04/15/week-in-review</id><content type="html" xml:base="http://localhost:4000/personal/weekly/2026/04/15/week-in-review.html"><![CDATA[<h2 id="what-i-accomplished-this-week">What I Accomplished This Week</h2>
+
+<h3 id="technical-achievements">Technical Achievements</h3>
+<ul>
+  <li>✅ Added scientific resource links to my website (eLibrary, Google Scholar, ORCID, etc.)</li>
+  <li>✅ Created a Personal Projects page with all my work</li>
+  <li>✅ Registered on academic platforms for research visibility</li>
+  <li>✅ Wrote a post about scientific programming languages</li>
+</ul>
+
+<h3 id="academic-progress">Academic Progress</h3>
+<ul>
+  <li>Registered on <strong>ORCID</strong> – received unique researcher ID</li>
+  <li>Set up <strong>Google Scholar</strong> profile</li>
+  <li>Created <strong>ResearchGate</strong> account for networking</li>
+  <li>Explored <strong>arXiv</strong> for preprint submissions</li>
+</ul>
+
+<h3 id="skills-development">Skills Development</h3>
+<ul>
+  <li><strong>Academic networking</strong> – Understanding importance of research profiles</li>
+  <li><strong>Project documentation</strong> – Organized all projects on one page</li>
+  <li><strong>Scientific programming</strong> – Learned about Python, R, Julia, MATLAB</li>
+</ul>
+
+<h3 id="next-weeks-goals">Next Week’s Goals</h3>
+<ol>
+  <li>Add more projects to the portfolio</li>
+  <li>Start learning GitHub Actions for CI/CD</li>
+  <li>Explore Docker for containerization</li>
+  <li>Publish a lab report on arXiv as a test</li>
+</ol>
+
+<hr />
+
+<p><em>Building my academic presence online!</em></p>]]></content><author><name>Mwikuyu Christian C</name><email>christiandumalukhie@gmail.com</email></author><category term="personal" /><category term="weekly" /><summary type="html"><![CDATA[What I Accomplished This Week]]></summary></entry><entry><title type="html">Markdown: The Lightweight Markup Language</title><link href="http://localhost:4000/technology/markdown/documentation/2026/04/08/markdown-lightweight-markup.html" rel="alternate" type="text/html" title="Markdown: The Lightweight Markup Language" /><published>2026-04-08T00:00:00+03:00</published><updated>2026-04-08T00:00:00+03:00</updated><id>http://localhost:4000/technology/markdown/documentation/2026/04/08/markdown-lightweight-markup</id><content type="html" xml:base="http://localhost:4000/technology/markdown/documentation/2026/04/08/markdown-lightweight-markup.html"><![CDATA[<h2 id="what-is-markdown">What is Markdown?</h2>
+
+<p><strong>Markdown</strong> is a lightweight markup language created by John Gruber in 2004. It allows you to write formatted content using plain text that is easy to read and write, then convert it to HTML.</p>
+
+<h2 id="why-markdown">Why Markdown?</h2>
+
+<h3 id="advantages">Advantages</h3>
+<ul>
+  <li><strong>Simple syntax</strong> - Learn in 10 minutes</li>
+  <li><strong>Human-readable</strong> - Raw text is readable even without rendering</li>
+  <li><strong>Platform-independent</strong> - Works everywhere</li>
+  <li><strong>Convertible</strong> - Can be converted to HTML, PDF, DOCX, LaTeX, and more</li>
+  <li><strong>Version-control friendly</strong> - Works perfectly with Git</li>
+</ul>
+
+<h2 id="basic-markdown-syntax">Basic Markdown Syntax</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Element</th>
+      <th>Syntax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Heading 1</td>
+      <td><code class="language-plaintext highlighter-rouge"># Heading</code></td>
+    </tr>
+    <tr>
+      <td>Heading 2</td>
+      <td><code class="language-plaintext highlighter-rouge">## Heading</code></td>
+    </tr>
+    <tr>
+      <td>Bold</td>
+      <td><code class="language-plaintext highlighter-rouge">**bold text**</code></td>
+    </tr>
+    <tr>
+      <td>Italic</td>
+      <td><code class="language-plaintext highlighter-rouge">*italic text*</code></td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td><code class="language-plaintext highlighter-rouge">[title](https://example.com)</code></td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><code class="language-plaintext highlighter-rouge">![alt](image.jpg)</code></td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td><code class="language-plaintext highlighter-rouge">`code`</code></td>
+    </tr>
+    <tr>
+      <td>Code block</td>
+      <td><code class="language-plaintext highlighter-rouge">```code block```</code></td>
+    </tr>
+    <tr>
+      <td>Unordered list</td>
+      <td><code class="language-plaintext highlighter-rouge">- item</code></td>
+    </tr>
+    <tr>
+      <td>Ordered list</td>
+      <td><code class="language-plaintext highlighter-rouge">1. item</code></td>
+    </tr>
+    <tr>
+      <td>Table</td>
+      <td><code class="language-plaintext highlighter-rouge">\| col1 \| col2 \|</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="markdown-vs-other-formats">Markdown vs Other Formats</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Markdown</th>
+      <th>LaTeX</th>
+      <th>HTML</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Learning curve</td>
+      <td>Low</td>
+      <td>High</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Readability</td>
+      <td>High</td>
+      <td>Low</td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>Best for</td>
+      <td>Docs, blogs</td>
+      <td>Academic papers</td>
+      <td>Web pages</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="tools-i-use">Tools I Use</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Tool</th>
+      <th>Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Pandoc</strong></td>
+      <td>Convert to PDF, DOCX, HTML</td>
+    </tr>
+    <tr>
+      <td><strong>Jekyll</strong></td>
+      <td>Static site generation</td>
+    </tr>
+    <tr>
+      <td><strong>Fedora Terminal</strong></td>
+      <td>Markdown editor</td>
+    </tr>
+    <tr>
+      <td><strong>GitHub</strong></td>
+      <td>Native Markdown rendering</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Markdown is essential for modern technical writing and documentation.</p>]]></content><author><name>Mwikuyu Christian C</name><email>christiandumalukhie@gmail.com</email></author><category term="technology" /><category term="markdown" /><category term="documentation" /><summary type="html"><![CDATA[What is Markdown?]]></summary></entry><entry><title type="html">Week in Review: April 1-8, 2026</title><link href="http://localhost:4000/personal/weekly/2026/04/08/week-in-review.html" rel="alternate" type="text/html" title="Week in Review: April 1-8, 2026" /><published>2026-04-08T00:00:00+03:00</published><updated>2026-04-08T00:00:00+03:00</updated><id>http://localhost:4000/personal/weekly/2026/04/08/week-in-review</id><content type="html" xml:base="http://localhost:4000/personal/weekly/2026/04/08/week-in-review.html"><![CDATA[<h2 id="what-i-accomplished-this-week">What I Accomplished This Week</h2>
+
+<h3 id="technical-achievements">Technical Achievements</h3>
+<ul>
+  <li>✅ Added Skills, Experience, and Accomplishments to my personal website</li>
+  <li>✅ Created a new blog post about Markdown markup language</li>
+  <li>✅ Improved the About page with detailed sections</li>
+  <li>✅ Learned more about lightweight markup languages</li>
+</ul>
+
+<h3 id="skills-development">Skills Development</h3>
+<ul>
+  <li><strong>Markdown:</strong> Mastered advanced formatting (tables, code blocks, footnotes)</li>
+  <li><strong>Jekyll:</strong> Learned to organize content with collections and front matter</li>
+  <li><strong>Git:</strong> Practiced branching and merging with git-flow</li>
+</ul>
+
+<h3 id="challenges-overcome">Challenges Overcome</h3>
+<ul>
+  <li>Understanding Jekyll’s front matter variables</li>
+  <li>Properly formatting tables in Markdown for the About page</li>
+  <li>Organizing content to maintain consistency across pages</li>
+</ul>
+
+<h3 id="next-weeks-goals">Next Week’s Goals</h3>
+<ol>
+  <li>Learn GitHub Actions for CI/CD</li>
+  <li>Add more projects to my portfolio</li>
+  <li>Customize the website theme further</li>
+</ol>]]></content><author><name>Mwikuyu Christian C</name><email>christiandumalukhie@gmail.com</email></author><category term="personal" /><category term="weekly" /><summary type="html"><![CDATA[What I Accomplished This Week]]></summary></entry><entry><title type="html">Week in Review: March 15-21, 2026</title><link href="http://localhost:4000/personal/weekly/2026/03/21/week-in-review.html" rel="alternate" type="text/html" title="Week in Review: March 15-21, 2026" /><published>2026-03-21T00:00:00+03:00</published><updated>2026-03-21T00:00:00+03:00</updated><id>http://localhost:4000/personal/weekly/2026/03/21/week-in-review</id><content type="html" xml:base="http://localhost:4000/personal/weekly/2026/03/21/week-in-review.html"><![CDATA[<h2 id="-what-i-accomplished-this-week">🚀 What I Accomplished This Week</h2>
+
+<h3 id="technical-achievements">Technical Achievements</h3>
+<ul>
+  <li><strong>Git Configuration:</strong> Set up GPG signing for commits and SSH keys for GitHub authentication</li>
+  <li><strong>Repository Management:</strong> Created and configured git-extended repository using Git-flow</li>
+  <li><strong>Release Management:</strong> Successfully created releases v1.0.0 and v1.2.3 with automatic changelogs</li>
+  <li><strong>Personal Website:</strong> Started building this Jekyll site for GitHub Pages</li>
+</ul>
+
+<h3 id="-key-learnings">📚 Key Learnings</h3>
+
+<h4 id="git--version-control">Git &amp; Version Control</h4>
+<ul>
+  <li>Mastered Git-flow branching strategy (master, develop, feature branches)</li>
+  <li>Learned to sign commits with GPG keys</li>
+  <li>Understood Semantic Versioning (MAJOR.MINOR.PATCH)</li>
+  <li>Practiced Conventional Commits (feat, fix, chore, etc.)</li>
+</ul>
+
+<h4 id="tools--automation">Tools &amp; Automation</h4>
+<ul>
+  <li>Installed and configured commitizen for conventional commits</li>
+  <li>Used standard-changelog for automatic CHANGELOG generation</li>
+  <li>Created GitHub releases with CLI tool</li>
+</ul>
+
+<h3 id="️-commands-i-used">🛠️ Commands I Used</h3>
+<p>```bash</p>
+<h1 id="git-flow-release-process">Git-flow release process</h1>
+<p>git flow release start 1.2.3
+standard-changelog
+git flow release finish 1.2.3 -m “Release 1.2.3”
+git push –all &amp;&amp; git push –tags
+gh release create v1.2.3 -F CHANGELOG.md</p>
+
+<p>Next Week’s Goals
+Customize this website with a better theme</p>
+
+<p>Learn GitHub Actions for CI/CD</p>
+
+<p>Write more technical blog posts</p>
+
+<p>Explore Docker basics</p>
+
+<p>Thanks for reading! Follow my journey as I continue learning.</p>]]></content><author><name>Mwikuyu Christian C</name><email>christiandumalukhie@gmail.com</email></author><category term="personal" /><category term="weekly" /><summary type="html"><![CDATA[🚀 What I Accomplished This Week]]></summary></entry></feed>

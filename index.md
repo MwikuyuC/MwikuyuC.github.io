@@ -1,12 +1,11 @@
 ---
-layout: home
-title: "Welcome"
+layout: default
+title: "Language Selection / Выбор языка"
 ---
 
-# Hello, I'm Mwikuyu Christian C
+## Select Language / Выберите язык
 
-Welcome to my personal website! I'm a student passionate about operating systems, version control, and open-source software.
+| [🇬🇧 English](en/) | [🇷🇺 Русский](ru/) |
+|---|---|
 
-## Latest Posts
-
-Check out my blog posts below to learn about my journey in technology.
+Welcome to my personal website! / Добро пожаловать на мой персональный сайт!

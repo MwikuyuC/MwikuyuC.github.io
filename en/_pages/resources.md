@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Scientific Resources"
-permalink: /resources/
+permalink: /en/resources/
 ---
 
 ## My Profiles on Scientific and Bibliometric Resources

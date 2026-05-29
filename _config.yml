@@ -30,3 +30,21 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# Multilingual settings
+languages:
+  - en
+  - ru
+
+default_lang: en
+exclude_from_localization: ["assets", "screenshots", "javascript", "images", "css"]
+
+parallel_localization: true
+
+# Language navigation
+language_switcher: true
+
+# Language names for display
+lang_names:
+  en: "English"
+  ru: "Русский"
